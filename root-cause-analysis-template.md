@@ -79,6 +79,8 @@ The terms *exploit primitive*, *exploit strategy*, *exploit technique*, and
 
 **Patch gapping time-frame:**
 
+**Backport patch analysis:**
+
 ## The Next Steps
 
 ### Variant analysis
