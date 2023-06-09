@@ -1,6 +1,5 @@
 # 0-day Root Cause Analysis Template
 
-
 # \<CVE\>: \<Description/Title\>
 
 ## The Basics
@@ -25,7 +24,7 @@
 
 **Bug-Introducing CL:**
 
-**Reporter(s):** 
+**Reporter(s):**
 
 ## The Code
 
@@ -41,23 +40,44 @@
 
 **Vulnerability details:**
 
-**Patch analysis:**
+**(Historical/present/future) context of bug:**
 
-**Thoughts on how this vuln might have been found _(fuzzing, code auditing, variant analysis, etc.)_:**
+### Detection reproducer
 
-**(Historical/present/future) context of bug:** 
+**Fuzzing reproducer**:
+
+**Code auditing reproducer**:
+
+**Static analysis reproducer**:
+
+**Variant analysis reproducer**:
 
 ## The Exploit
 
-(The terms *exploit primitive*, *exploit strategy*, *exploit technique*, and *exploit flow* are [defined here](https://googleprojectzero.blogspot.com/2020/06/a-survey-of-recent-ios-kernel-exploits.html).)
+The terms *exploit primitive*, *exploit strategy*, *exploit technique*, and
+*exploit flow* are [defined here](https://googleprojectzero.blogspot.com/2020/06/a-survey-of-recent-ios-kernel-exploits.html).
 
-**Exploit strategy (or strategies):** 
+**Exploit strategy (or strategies):**
 
-**Exploit flow:** 
+**Exploit flow:**
 
 **Known cases of the same exploit flow:**
 
 **Part of an exploit chain?**
+
+## The Patch
+
+**Mitigation strategy (or strategies):**
+
+**Was there a temporary workaround before the release of a working patch?**
+
+**Patch diffing reproducer:**
+
+**Patch analysis:**
+
+**Results of Patch fuzzing:**
+
+**Patch gapping time-frame:**
 
 ## The Next Steps
 
@@ -69,16 +89,24 @@
 
 ### Structural improvements
 
-What are structural improvements such as ways to kill the bug class, prevent the introduction of this vulnerability, mitigate the exploit flow, make this type of vulnerability harder to exploit, etc.?
+make this type of vulnerability harder to exploit, etc.?
 
 **Ideas to kill the bug class:**
 
+**Ideas to prevent the introduction of this vulnerability:**
+
 **Ideas to mitigate the exploit flow:**
+
+**Ideas to make it harder to exploit:**
 
 **Other potential improvements:**
 
 ### 0-day detection methods
 
-What are potential detection methods for similar 0-days? Meaning are there any ideas of how this exploit or similar exploits could be detected **as a 0-day**?
+What are potential detection methods for similar 0-days? Meaning are there any
+ideas of how this exploit or similar exploits could be detected **as a 0-day**?
 
-## Other References 
+## Other References
+
+### Links
+
