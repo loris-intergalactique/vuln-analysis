@@ -2,13 +2,16 @@
 
 
 # \<CVE\>: \<Description/Title\>
-*Author*
 
 ## The Basics
 
-**Disclosure or Patch Date:**
+**Disclosure Data:**
+
+**Patch Date:**
 
 **Product:**
+
+**Scope:**
 
 **Advisory:**
 
