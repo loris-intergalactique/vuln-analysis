@@ -38,6 +38,10 @@
 
 **Bug class:**
 
+**Source Category:**
+
+**Sink Category:**
+
 **Vulnerability details:**
 
 **(Historical/present/future) context of bug:**
