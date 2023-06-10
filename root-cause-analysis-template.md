@@ -26,14 +26,6 @@
 
 **Reporter(s):**
 
-## The Code
-
-**Proof-of-concept:**
-
-**Exploit sample:**
-
-**Did you have access to the exploit sample when doing the analysis?**
-
 ## The Vulnerability
 
 **Bug class:**
@@ -68,6 +60,10 @@ The terms *exploit primitive*, *exploit strategy*, *exploit technique*, and
 **Known cases of the same exploit flow:**
 
 **Part of an exploit chain?**
+
+**Proof-of-concept:**
+
+**Exploit sample:**
 
 ## The Patch
 
